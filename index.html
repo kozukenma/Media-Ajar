@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>tugas</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicons -->
+    <link href="assets/img/logo1.png" rel="icon" />
+    <link href="assets/img/logo1.png" rel="apple-touch-icon" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+
+    <!-- =======================================================
+  * Template Name: QuickStart
+  * Template URL: https://bootstrapmade.com/quickstart-bootstrap-startup-website-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+    <style>
+      .conversation {
+        background: #fdfdfd;
+        border: 2px solid #e5e5e5;
+      }
+      .dialog {
+        margin-bottom: 1.5rem;
+      }
+      .dialog.right {
+        text-align: right;
+      }
+      .speaker {
+        font-weight: bold;
+        color: #555;
+      }
+      .bubble {
+        display: inline-block;
+        padding: 10px 15px;
+        margin: 5px 0;
+        border-radius: 15px;
+        max-width: 80%;
+        animation: fadeIn 0.5s ease;
+      }
+      .dialog .bubble-jp {
+        background-color: #fff6e6;
+        border: 1px solid #ffcc80;
+        font-family: "Noto Sans JP", sans-serif;
+        font-size: 1.1rem;
+      }
+      .dialog .bubble-romaji {
+        background-color: #e6f3ff;
+        border: 1px solid #90caf9;
+        font-style: italic;
+      }
+      .dialog .bubble-id {
+        background-color: #e8f5e9;
+        border: 1px solid #a5d6a7;
+      }
+      .dialog.right .bubble {
+        background-color: #fff3f3;
+        border: 1px solid #ef9a9a;
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+
+  <body class="index-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center"
+      >
+        <a href="index.html" class="logo d-flex align-items-center me-auto">
+          <!-- <img src="assets/img/logo.png" alt="" /> -->
+          <h1 class="sitename">Laila Dwi Kusumaning Rahayu</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="index.html#hero" class="active">Home</a></li>
+            <!-- <li><a href="index.html#profil">Profil</a></li>
+            <li><a href="index.html#naskah">Naskah </a></li>
+            <li><a href="index.html#template">Template</a></li>
+            <li><a href="index.html#katalog">Terbitan</a></li>
+            <li><a href="index.html#price">Paket</a></li>
+            <li><a href="index.html#contact">Kontak</a></li> -->
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero section">
+        <div class="hero-bg">
+          <img src="assets/img/hero-bg-light.webp" alt="" />
+        </div>
+        <div class="container text-center py-5">
+          <div class="row align-items-center">
+            <!-- Gambar di kiri -->
+            <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
+              <img
+                src="assets/img/book1.png"
+                class="img-fluid hero-img"
+                alt="Buku"
+                style="max-width: 60%; height: auto"
+              />
+            </div>
+
+            <!-- Teks di kanan -->
+            <div class="col-md-6 text-md-start text-center">
+              <h1 data-aos="fade-up">
+                Selamat datang di
+                <span>modul pembelajaran digital Bahasa Jepang</span>
+                untuk pemula
+              </h1>
+              <p data-aos="fade-up" data-aos-delay="100">
+                Website ini dibuat untuk mendukung proses pembelajaran yang
+                lebih fleksibel, interaktif, dan mudah diakses di mana saja.<br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Hero Section -->
+
+      <!-- /Featured Services Section -->
+      <section id="profil" class="more-features section">
+        <div class="container">
+          <div class="row justify-content-around gy-4">
+            <div
+              class="col-lg-12 d-flex flex-column justify-content-center order-2 order-lg-1"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <h3>Pendahuluan</h3>
+              <p>
+                Pada modul ini, kita akan mempelajari pola kalimat
+                「〜がじょうずです」 yang digunakan untuk menyatakan bahwa
+                seseorang pandai atau mahir dalam melakukan suatu hal. Tidak
+                hanya itu, terdapat banyak kosakata baru dan juga materi
+                tambahan sebagai penunjang belajar yang tidak kalah penting.
+                Materi ini akan disajikan secara sederhana agar mudah dipahami,
+                dilengkapi dengan contoh kalimat dan latihan soal sebagai
+                penguat pemahaman. Melalui website ini, diharapkan pembelajaran
+                bahasa Jepang menjadi lebih menyenangkan dan membantu kalian
+                dalam memperluas kemampuan berbahasa. Sehingga, diharapkan
+                peserta didik dapat memahami, menulis, dan mempresentasikan
+                kalimat yang menyatakan kemahiran dalam bahasa Jepang dengan
+                baik dan benar. Selamat belajar dan semoga bermanfaat!
+              </p>
+
+              <div class="row mt-4">
+                <h3>Tujuan Website Pembelajaran</h3>
+                <div class="col-lg-12 icon-box d-flex">
+                  <div>
+                    <h4>
+                      1. Memahami makna dan penggunaan pola kalimat
+                      「〜がじょうずです。」 dalam Bahasa Jepang.
+                    </h4>
+                  </div>
+                </div>
+                <div class="col-lg-12 icon-box d-flex">
+                  <div>
+                    <h4>
+                      2. Menyebutkan kosakata yang berkaitan dengan kemahiran
+                      diri sendiri maupun orang lain dengan pola kalimat
+                      sederhana.
+                    </h4>
+                  </div>
+                </div>
+                <div class="col-lg-12 icon-box d-flex">
+                  <div>
+                    <h4>
+                      3. Menunjukkan sikap percaya diri saat menyampaikan
+                      kemahiran diri menggunakan Bahasa Jepang.
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-lg-12 d-flex flex-column justify-content-center order-2 order-lg-1"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <div class="row mt-4">
+                <h3>Petunjuk Penggunaan Website Pembelajaran</h3>
+                <div class="col-lg-6 icon-box d-flex">
+                  <i class="bi bi-patch-check flex-shrink-0"></i>
+                  <div>
+                    <h4>Baca pendahuluan materi terlebih dahulu.</h4>
+                    <p>
+                      Sebelum memulai, pahami tujuan pembelajaran dan materi
+                      utama yang akan dipelajari dalam modul ini.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 icon-box d-flex">
+                  <i class="bi bi-patch-check flex-shrink-0"></i>
+                  <div>
+                    <h4>Pelajari materi secara berurutan.</h4>
+                    <p>
+                      Materi telah disusun dari penjelasan dasar, contoh
+                      kalimat, hingga latihan soal. Disarankan untuk tidak
+                      melewati setiap bagian agar pemahaman lebih menyeluruh.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 icon-box d-flex">
+                  <i class="bi bi-patch-check flex-shrink-0"></i>
+                  <div>
+                    <h4>Perhatikan contoh kalimat.</h4>
+                    <p>
+                      Setiap pola kalimat dilengkapi contoh dan arti. Bacalah
+                      dengan saksama untuk memahami cara penggunaannya dalam
+                      konteks nyata.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 icon-box d-flex">
+                  <i class="bi bi-patch-check flex-shrink-0"></i>
+                  <div>
+                    <h4>Catat poin penting.</h4>
+                    <p>
+                      Jika ada bagian yang penting atau sulit dipahami, catat
+                      dan ulangi kembali bagian tersebut hingga benar-benar
+                      paham.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 icon-box d-flex">
+                  <i class="bi bi-patch-check flex-shrink-0"></i>
+                  <div>
+                    <h4>Kerjakan latihan soal.</h4>
+                    <p>
+                      Gunakan latihan soal untuk mengukur pemahamanmu. Cobalah
+                      menjawab terlebih dahulu sebelum melihat pembahasan.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 icon-box d-flex">
+                  <i class="bi bi-patch-check flex-shrink-0"></i>
+                  <div>
+                    <h4>Akhiri dengan refleksi.</h4>
+                    <p>
+                      Setelah menyelesaikan materi, luangkan waktu sejenak untuk
+                      merefleksikan apa saja yang sudah dipelajari.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Section -->
+      <section id="template" class="about section">
+        <div class="container">
+          <div class="row text-center">
+            <h2>
+              POLA KALIMAT BAHASA JEPANG UNTUK MENYATAKAN KEMAHIRAN DALAM
+              MELAKUKAN SESUATU
+            </h2>
+          </div>
+
+          <div class="row gy-4">
+            <div
+              class="col-lg-12 content"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <h5>Daftar Kosakata</h5>
+              <p class="fst">1. Kemahiran</p>
+              <table
+                class="table table-bordered text-center align-middle"
+                style="width: 100%; border-collapse: collapse"
+              >
+                <thead style="background-color: #dbe9f6">
+                  <tr>
+                    <th>Kosakata</th>
+                    <th>Romaji</th>
+                    <th>Arti</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>え</td>
+                    <td>E</td>
+                    <td>Gambar, lukis</td>
+                  </tr>
+                  <tr>
+                    <td>うた</td>
+                    <td>Uta</td>
+                    <td>Lagu</td>
+                  </tr>
+                  <tr>
+                    <td>ダンス</td>
+                    <td>Dansu</td>
+                    <td>Menari, dance</td>
+                  </tr>
+                  <tr>
+                    <td>スポーツ</td>
+                    <td>Supōtsu</td>
+                    <td>Olahraga</td>
+                  </tr>
+                  <tr>
+                    <td>がっき</td>
+                    <td>Gakki</td>
+                    <td>Alat musik</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div
+              class="col-lg-12 content"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <p class="fst">2. Bahasa Asing</p>
+              <table
+                class="table table-bordered text-center align-middle"
+                style="width: 100%; border-collapse: collapse"
+              >
+                <thead style="background-color: #dbe9f6">
+                  <tr>
+                    <th>Kosakata</th>
+                    <th>Romaji</th>
+                    <th>Arti</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>にほんご</td>
+                    <td>Nihon-go</td>
+                    <td>Bahasa Jepang</td>
+                  </tr>
+                  <tr>
+                    <td>えいご</td>
+                    <td>Ei-go</td>
+                    <td>Bahasa Inggris</td>
+                  </tr>
+                  <tr>
+                    <td>かんこくご</td>
+                    <td>Kankoku-go</td>
+                    <td>Bahasa Korea</td>
+                  </tr>
+                  <tr>
+                    <td>アラビアご</td>
+                    <td>Arabia-go</td>
+                    <td>Bahasa Arab</td>
+                  </tr>
+                  <tr>
+                    <td>フランスご</td>
+                    <td>Furansu-go</td>
+                    <td>Bahasa Prancis</td>
+                  </tr>
+                  <tr>
+                    <td>ちゅうごくご</td>
+                    <td>Chūgoku-go</td>
+                    <td>Bahasa Mandarin</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div
+              class="col-lg-12 content"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <p class="fst">3. Olahraga</p>
+              <table
+                class="table table-bordered text-center align-middle"
+                style="width: 100%; border-collapse: collapse"
+              >
+                <thead style="background-color: #dbe9f6">
+                  <tr>
+                    <th>Kosakata</th>
+                    <th>Romaji</th>
+                    <th>Arti</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>バドミントン</td>
+                    <td>Badominton</td>
+                    <td>Badminton</td>
+                  </tr>
+                  <tr>
+                    <td>サッカー</td>
+                    <td>Sakkā</td>
+                    <td>Sepak bola</td>
+                  </tr>
+                  <tr>
+                    <td>バスケットボール</td>
+                    <td>Basuketto bōru</td>
+                    <td>Bola basket</td>
+                  </tr>
+                  <tr>
+                    <td>テニス</td>
+                    <td>Tenisu</td>
+                    <td>Tenis</td>
+                  </tr>
+                  <tr>
+                    <td>バレーボール</td>
+                    <td>Barēbōru</td>
+                    <td>Bola voli</td>
+                  </tr>
+                  <tr>
+                    <td>からて</td>
+                    <td>Karate</td>
+                    <td>Karate</td>
+                  </tr>
+                  <tr>
+                    <td>シラット</td>
+                    <td>Shiratto</td>
+                    <td>Silat</td>
+                  </tr>
+                  <tr>
+                    <td>すいえい</td>
+                    <td>Suiei</td>
+                    <td>Berenang</td>
+                  </tr>
+                  <tr>
+                    <td>サーフィン</td>
+                    <td>Sāfin</td>
+                    <td>Surfing</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div
+              class="col-lg-12 content"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <p class="fst">4. Alat Musik</p>
+              <table
+                class="table table-bordered text-center align-middle"
+                style="width: 100%; border-collapse: collapse"
+              >
+                <thead style="background-color: #dbe9f6">
+                  <tr>
+                    <th>Kosakata</th>
+                    <th>Romaji</th>
+                    <th>Arti</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>ギター</td>
+                    <td>Gitā</td>
+                    <td>Gitar</td>
+                  </tr>
+                  <tr>
+                    <td>ピアノ</td>
+                    <td>Piano</td>
+                    <td>Piano</td>
+                  </tr>
+                  <tr>
+                    <td>キーボード</td>
+                    <td>Kībōdo</td>
+                    <td>Keyboard</td>
+                  </tr>
+                  <tr>
+                    <td>ベースギター</td>
+                    <td>Bēsu gitā</td>
+                    <td>Gitar bass</td>
+                  </tr>
+                  <tr>
+                    <td>ドラム</td>
+                    <td>Doramu</td>
+                    <td>Drum</td>
+                  </tr>
+                  <tr>
+                    <td>がメラン</td>
+                    <td>Gamuran</td>
+                    <td>Gamelan</td>
+                  </tr>
+                  <tr>
+                    <td>アンクルン</td>
+                    <td>Ankurun</td>
+                    <td>Angklung</td>
+                  </tr>
+                  <tr>
+                    <td>ヴァイオリン</td>
+                    <td>Vaiorin</td>
+                    <td>Violin</td>
+                  </tr>
+                  <tr>
+                    <td>ハーモニカ</td>
+                    <td>Hāmonika</td>
+                    <td>Harmonika</td>
+                  </tr>
+                  <tr>
+                    <td>レバナ</td>
+                    <td>Rebana</td>
+                    <td>Rebana</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div
+              class="col-lg-12 content"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <p class="fst">5. Kata Sifat (-na)</p>
+              <table
+                class="table table-bordered text-center align-middle"
+                style="width: 100%; border-collapse: collapse"
+              >
+                <thead style="background-color: #dbe9f6">
+                  <tr>
+                    <th>Kosakata</th>
+                    <th>Romaji</th>
+                    <th>Arti</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>ギター</td>
+                    <td>Gitā</td>
+                    <td>Gitar</td>
+                  </tr>
+                  <tr>
+                    <td>ピアノ</td>
+                    <td>Piano</td>
+                    <td>Piano</td>
+                  </tr>
+                  <tr>
+                    <td>キーボード</td>
+                    <td>Kībōdo</td>
+                    <td>Keyboard</td>
+                  </tr>
+                  <tr>
+                    <td>ベースギター</td>
+                    <td>Bēsu gitā</td>
+                    <td>Gitar bass</td>
+                  </tr>
+                  <tr>
+                    <td>ドラム</td>
+                    <td>Doramu</td>
+                    <td>Drum</td>
+                  </tr>
+                  <tr>
+                    <td>がメラン</td>
+                    <td>Gamuran</td>
+                    <td>Gamelan</td>
+                  </tr>
+                  <tr>
+                    <td>アンクルン</td>
+                    <td>Ankurun</td>
+                    <td>Angklung</td>
+                  </tr>
+                  <tr>
+                    <td>ヴァイオリン</td>
+                    <td>Vaiorin</td>
+                    <td>Violin</td>
+                  </tr>
+                  <tr>
+                    <td>ハーモニカ</td>
+                    <td>Hāmonika</td>
+                    <td>Harmonika</td>
+                  </tr>
+                  <tr>
+                    <td>レバナ</td>
+                    <td>Rebana</td>
+                    <td>Rebana</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <h5>Tujuan Pola Kalimat</h5>
+            <div class="col-lg-12 icon-box d-flex">
+              <div>
+                <p class="fst">
+                  1. 「~がじょうずです」 digunakan untuk menyatakan mengakui
+                  kepandaian, kemahiran, keterampilan orang lain dalam suatu
+                  hal. <br />
+                  2. 「~がへたです」 digunakan untuk menyatakan kemampuan
+                  seseorang atau diri sendiri yang kurang baik dalam melakukan
+                  sesuatu. <br />
+                  3. 「~がとくいです」 digunakan untuk memperkenalkan kemahiran
+                  diri sendiri kepada orang lain dalam suatu hal.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row mt-4">
+            <h5>Pola Kalimat</h5>
+            <div class="col-lg-12 icon-box d-flex">
+              <div
+                class="p-3 border rounded bg-light w-100 text-center"
+                style="
+                  font-size: 18px;
+                  line-height: 1.8;
+                  border: 1px solid #333;
+                "
+              >
+                <p style="margin: 0">KB (orang) は KB (hal) がじょうずです。</p>
+                <p style="margin: 0">
+                  <em
+                    >KB (orang) <strong>wa</strong> KB (hal)
+                    <strong>ga jōzu desu.</strong></em
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-12 icon-box d-flex mt-2">
+              <div
+                class="p-3 border rounded bg-light w-100 text-center"
+                style="
+                  font-size: 18px;
+                  line-height: 1.8;
+                  border: 1px solid #333;
+                "
+              >
+                <p style="margin: 0">KB (orang) は KB (hal) がへたです。</p>
+                <p style="margin: 0">
+                  <em
+                    >KB (orang) <strong>wa</strong> KB (hal)
+                    <strong>ga heta desu.</strong></em
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-12 icon-box d-flex mt-2">
+              <div
+                class="p-3 border rounded bg-light w-100 text-center"
+                style="
+                  font-size: 18px;
+                  line-height: 1.8;
+                  border: 1px solid #333;
+                "
+              >
+                <p style="margin: 0">KB (orang) は KB (hal) がとくいです。</p>
+                <p style="margin: 0">
+                  <em
+                    >KB (orang) <strong>wa</strong> KB (hal)
+                    <strong>ga tokui desu.</strong></em
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="price" class="features-details section">
+        <div class="container">
+          <div class="row">
+            <h5>Contoh Kalimat</h5>
+          </div>
+          <div class="row gy-4 justify-content-between features-item">
+            <div
+              class="col-lg-6 d-flex align-items-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h3>
+                  ミタさんはギターがじょうずです。 Mita san wa gitaa ga jouzu
+                  desu. <br />
+                  Bu Mita mahir bermain gitar.
+                </h3>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <img
+                src="assets/img/1.jpg"
+                class="img-fluid"
+                alt=""
+                style="width: 50%; max-width: none"
+              />
+            </div>
+            <hr />
+            <div
+              class="col-lg-6 d-flex align-items-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h3>
+                  たなかさんはダンスがへたです。 Tanaka san wa dansu ga heta
+                  desu. <br />Pak Tanaka tidak pandai menari
+                </h3>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <img
+                src="assets/img/2.jpg"
+                class="img-fluid"
+                alt=""
+                style="width: 50%; max-width: none"
+              />
+            </div>
+            <hr />
+            <div
+              class="col-lg-6 d-flex align-items-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h3>
+                  わたしはえいごがとくいです。 Watashi wa eigo tokui desu.
+                  <br />Saya mahir bahasa Inggris.
+                </h3>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <img
+                src="assets/img/3.jpg"
+                class="img-fluid"
+                alt=""
+                style="width: 50%; max-width: none"
+              />
+            </div>
+          </div>
+          <!-- Features Item -->
+
+          <!-- Features Item -->
+        </div>
+      </section>
+
+      <section id="price" class="features-details section">
+        <div class="container">
+          <div class="row">
+            <h5>Macam-macam Ungkapan Jawaban</h5>
+          </div>
+          <div class="row gy-4 justify-content-between features-item">
+            <div
+              class="col-lg-12 d-flex align-items-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h3>「まだまだです」 (Mada mada desu)</h3>
+                <h4>
+                  Ungkapan yang digunakan untuk merendahkan diri saat dipuji
+                  orang lain perihal kemahirannya.
+                </h4>
+              </div>
+            </div>
+            <hr />
+            <div
+              class="col-lg-12 d-flex align-items-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h3>「すごいですね」 (Sugoi desune)</h3>
+                <h4>
+                  Ungkapan yang digunakan untuk mengakui kehebatan, kemahiran
+                  seseorang dalam hal tertentu katakanlah “Sugoi desune!”
+                </h4>
+              </div>
+            </div>
+          </div>
+          <!-- Features Item -->
+
+          <!-- Features Item -->
+        </div>
+      </section>
+      <!-- Features Details Section -->
+
+      <div class="container my-5">
+        <div class="text-center mb-4">
+          <h3>💬 Contoh Percakapan</h3>
+          <p class="text-muted">
+            Pola Kalimat: Kemahiran dalam Melakukan Sesuatu
+          </p>
+        </div>
+
+        <div class="conversation shadow-lg p-4 rounded-4 bg-light">
+          <!-- Baris 1 -->
+          <div class="dialog">
+            <div class="speaker">ライラ：</div>
+            <div class="bubble bubble-jp">えいごがじょうずです。</div>
+            <div class="bubble bubble-romaji">Eigo ga jōzu desune.</div>
+            <div class="bubble bubble-id">Pandai bahasa Inggris ya!</div>
+          </div>
+
+          <!-- Baris 2 -->
+          <div class="dialog right">
+            <div class="speaker">オピ：</div>
+            <div class="bubble bubble-jp">いいえ、まだまだです。</div>
+            <div class="bubble bubble-romaji">Iie, mada mada desu.</div>
+            <div class="bubble bubble-id">Ah, tidak. Masih belajar.</div>
+          </div>
+
+          <!-- Baris 3 -->
+          <div class="dialog">
+            <div class="speaker">ライラ：</div>
+            <div class="bubble bubble-jp">
+              がっきのなかでなにがいちばんとくいですか。
+            </div>
+            <div class="bubble bubble-romaji">
+              Gakki no naka de nani ga ichiban tokui desuka.
+            </div>
+            <div class="bubble bubble-id">
+              Alat musik apa yang paling mahir?
+            </div>
+          </div>
+
+          <!-- Baris 4 -->
+          <div class="dialog right">
+            <div class="speaker">オピ：</div>
+            <div class="bubble bubble-jp">ガムランがとくいです。</div>
+            <div class="bubble bubble-romaji">Gamuran ga tokui desu.</div>
+            <div class="bubble bubble-id">Mahir bermain gamelan.</div>
+          </div>
+        </div>
+      </div>
+
+      <section id="naskah" class="features-details section">
+        <div class="container">
+          <div class="row gy-4 justify-content-between features-item">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <img
+                src="assets/img/soal.png"
+                class="img-fluid"
+                alt=""
+                style="width: 80%; max-width: none"
+              />
+            </div>
+
+            <div
+              class="col-lg-5 d-flex align-items-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h3>Latihan Soal</h3>
+                <p>Klik start untuk lanjut ke halaman latihan soal</p>
+
+                <a href="soal.html" class="btn more-btn">Start</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="naskah" class="features-details section">
+        <div class="container">
+          <div class="row gy-4 justify-content-between features-item">
+            <div
+              class="col-lg-5 d-flex align-items-center"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div class="content">
+                <h3>Refleksi Diri</h3>
+                <p>Klik start untuk lanjut ke halaman refleksi diri</p>
+
+                <a href="refleksi.html" class="btn more-btn">Start</a>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <img
+                src="assets/img/refleksi.png"
+                class="img-fluid"
+                alt=""
+                style="width: 80%; max-width: none"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Features Details Section -->
+
+      <section class="container my-5">
+        <div class="card shadow-lg border-0 rounded-4 overflow-hidden">
+          <div class="row g-0">
+            <!-- Foto Profil -->
+            <div
+              class="col-md-4 bg-light d-flex align-items-center justify-content-center p-4"
+            >
+              <img
+                src="assets/img/profil.jpg"
+                alt="Foto Profil"
+                class="img-fluid rounded-4 shadow"
+                style="width: 220px; height: 300px; object-fit: cover"
+              />
+            </div>
+
+            <!-- Identitas Diri -->
+            <div class="col-md-8 p-4">
+              <h2 class="text-center mb-4 text-primary fw-bold">
+                🌸 Identitas Diri 🌸
+              </h2>
+              <table class="table table-borderless mb-4">
+                <tr>
+                  <th>Nama</th>
+                  <td>: Laila Dwi Kusumaning Rahayu</td>
+                </tr>
+                <tr>
+                  <th>NIM</th>
+                  <td>: 24020104149</td>
+                </tr>
+                <tr>
+                  <th>Fakultas</th>
+                  <td>: Bahasa dan Seni</td>
+                </tr>
+                <tr>
+                  <th>Program Studi</th>
+                  <td>: S1 Pendidikan Bahasa Jepang</td>
+                </tr>
+                <tr>
+                  <th>Usia</th>
+                  <td>: 19 Tahun</td>
+                </tr>
+                <tr>
+                  <th>Alamat</th>
+                  <td>
+                    : Ds. Waruberon RT. 03 RW. 01, Kec. Balongbendo, Kab.
+                    Sidoarjo
+                  </td>
+                </tr>
+              </table>
+
+              <div class="p-3 rounded-3" style="background-color: #f0f8ff">
+                <h5 class="fw-bold text-secondary mb-2">Deskripsi Singkat:</h5>
+                <p class="text-muted mb-0" style="text-align: justify">
+                  Saya <b>Laila Dwi Kusumaning Rahayu</b>, seorang mahasiswi dan
+                  pembelajar bahasa Jepang. Ketertarikan saya terhadap bahasa
+                  Jepang mendorong saya untuk terus belajar dan berbagi berbagai
+                  hal menarik serta bermanfaat seputar bahasa tersebut.
+                  <br /><br />
+                  Website ini saya buat sebagai media ajar digital untuk
+                  mendukung proses pembelajaran yang lebih fleksibel. Melalui
+                  platform ini, saya membagikan materi pembelajaran dan latihan
+                  soal yang dapat diakses kapan saja dan di mana saja.
+                  <br /><br />
+                  Harapannya, website ini dapat membantu proses belajar menjadi
+                  lebih <b>seru, menyenangkan, dan bermakna</b>. Terima kasih
+                  telah berkunjung dan tumbuh bersama!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+
+      <!-- /Contact Section -->
+    </main>
+
+    <footer id="footer" class="footer position-relative light-background">
+      <div class="container copyright text-center mt-4">
+        <p>
+          © <span>Copyright</span>
+          <span>All Rights Reserved</span>
+        </p>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
